@@ -1,0 +1,67 @@
+-- insert 10 projectss, 20 users, and 30 pledges
+
+-- INSERT INTO projects (id, title TEXT, category TEXT, funding_goal INTEGER, start_date TEXT, end_date TEXT)
+INSERT INTO projects VALUES (1, "Apples", "grocery", 100, "January 1, 2018", "December 31, 2018");
+INSERT INTO projects VALUES (2, "Bananas", "grocery", 300, "January 1, 2018", "July 1, 2018");
+INSERT INTO projects VALUES (3, "Carrots", "grocery", 500, "July 1, 2018", "December 31, 2018");
+INSERT INTO projects VALUES (4, "Alphabetize", "organize", 1000, "January 1, 2018", "January 31, 2018");
+INSERT INTO projects VALUES (5, "Number Order", "organize", 3000, "February 1, 2018", "February 28, 2018");
+INSERT INTO projects VALUES (6, "Color Order", "organize", 3000, "March 1, 2018", "March 31, 2018");
+INSERT INTO projects VALUES (7, "Clean", "organize", 500, "April 1, 2018", "April 30, 2018");
+INSERT INTO projects VALUES (8, "Weed", "garden", 500, "May 1, 2018", "May 31, 2018");
+INSERT INTO projects VALUES (9, "Prune", "garden", 300, "June 1, 2018", "June 30, 2018");
+INSERT INTO projects VALUES (10, "Plant", "garden", 2000, "May 1, 2018", "May 31, 2018");
+
+-- INSERT INTO user (id INTEGER PRIMARY KEY, name TEXT, age INTEGER);
+INSERT INTO users VALUES (1, "Laura", 34);
+INSERT INTO users VALUES (2, "Logan", 8);
+INSERT INTO users VALUES (3, "Ray", 39);
+INSERT INTO users VALUES (4, "David", 42);
+INSERT INTO users VALUES (5, "Mandy", 38);
+INSERT INTO users VALUES (6, "Robert", 43);
+INSERT INTO users VALUES (7, "Duane", 69);
+INSERT INTO users VALUES (8, "Cristy", 40);
+INSERT INTO users VALUES (9, "Tricia", 70);
+INSERT INTO users VALUES (10, "Corinne", 2);
+INSERT INTO users VALUES (11, "Hudson", 10);
+INSERT INTO users VALUES (12, "Anthea", 51);
+INSERT INTO users VALUES (13, "Lindsay", 13);
+INSERT INTO users VALUES (14, "Craig", 48);
+INSERT INTO users VALUES (15, "Caden", 8);
+INSERT INTO users VALUES (16, "Susan", 60);
+INSERT INTO users VALUES (17, "Paul", 62);
+INSERT INTO users VALUES (18, "Emily", 30);
+INSERT INTO users VALUES (19, "Christian", 31);
+INSERT INTO users VALUES (20, "Tahoma", 34);
+
+-- INSERT INTO pledge (id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, project_id INTEGER);
+INSERT INTO pledges VALUES (1, 10, 9, 5);
+INSERT INTO pledges VALUES (2, 100, 18, 9);
+INSERT INTO pledges VALUES (3, 75, 19, 3);
+INSERT INTO pledges VALUES (4, 50, 5, 10);
+INSERT INTO pledges VALUES (5, 25, 2, 5);
+INSERT INTO pledges VALUES (6, 575, 16, 6);
+INSERT INTO pledges VALUES (7, 997, 14, 4);
+INSERT INTO pledges VALUES (8, 1018, 18, 8);
+INSERT INTO pledges VALUES (9, 1394, 15, 2);
+INSERT INTO pledges VALUES (10, 1193, 8, 10);
+INSERT INTO pledges VALUES (11, 762, 6, 8);
+INSERT INTO pledges VALUES (12, 1677, 4, 3);
+INSERT INTO pledges VALUES (13, 390, 19, 9);
+INSERT INTO pledges VALUES (14, 1037, 11, 5);
+INSERT INTO pledges VALUES (15, 431, 17, 7);
+INSERT INTO pledges VALUES (16, 671, 7, 10);
+INSERT INTO pledges VALUES (17, 1216, 12, 1);
+INSERT INTO pledges VALUES (18, 912, 8, 9);
+INSERT INTO pledges VALUES (19, 448, 6, 4);
+INSERT INTO pledges VALUES (20, 266, 17, 2);
+INSERT INTO pledges VALUES (21, 842, 2, 5);
+INSERT INTO pledges VALUES (22, 681, 17, 3);
+INSERT INTO pledges VALUES (23, 801, 20, 8);
+INSERT INTO pledges VALUES (24, 619, 19, 1);
+INSERT INTO pledges VALUES (25, 297, 20, 8);
+INSERT INTO pledges VALUES (26, 120, 13, 6);
+INSERT INTO pledges VALUES (27, 186, 7, 7);
+INSERT INTO pledges VALUES (28, 687, 2, 8);
+INSERT INTO pledges VALUES (29, 248, 20, 6);
+INSERT INTO pledges VALUES (30, 948, 11, 10);
